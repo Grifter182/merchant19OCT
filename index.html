@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MerchantHaus – ISO Solutions for U.S. Retail</title>
+    <meta name="description" content="Effortlessly set up your business profile and start taking payments in minutes—cards, ACH, and secure pay links—online, in-store, or on the go." />
+    <meta name="author" content="MerchantHaus" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&family=Vollkorn:wght@400;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <meta property="og:title" content="MerchantHaus – ISO Solutions for U.S. Retail" />
+    <meta property="og:description" content="Effortlessly set up your business profile and start taking payments in minutes—cards, ACH, and secure pay links—online, in-store, or on the go." />
+    <meta property="og:type" content="website" />
+    <!--
+      The following Open Graph and Twitter image tags previously referenced
+      resources hosted on lovable.dev. To remove the Lovable association,
+      these have been replaced with a locally hosted placeholder image that
+      ships with this project. If you have your own image you would like
+      social platforms to display when linking to your site, update the
+      `content` attribute below accordingly.
+    -->
+    <meta property="og:image" content="/placeholder.svg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <!--
+      Twitter card metadata: the site handle and preview image have been
+      updated to generic values. Replace `@MerchantHaus` with your own
+      Twitter handle if applicable, and update the image path if you
+      customise the social preview.
+    -->
+    <meta name="twitter:site" content="@MerchantHaus" />
+    <meta name="twitter:image" content="/placeholder.svg" />
+  </head>
+
+  <body>
+    <!-- Netlify Forms Detection -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+    </form>
+    
+    <form name="quote" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="company" />
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <textarea name="details"></textarea>
+    </form>
+    
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
